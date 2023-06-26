@@ -1,0 +1,417 @@
+[
+    {
+        "customerId": "sgn",
+        "Aws": {
+            "CognitoUserPool": {
+                "Default": {
+                    "PoolId": "eu-west-1_FQLqQBjPm",
+                    "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "PoolId": "eu-west-1_FQLqQBjPm",
+                    "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                    "Region": "eu-west-1"
+                }
+            },
+            "CredentialsProvider": {
+                "CognitoIdentity": {
+                    "Default": {
+                        "PoolId": "eu-west-1:dee0aa8e-8a06-4322-9a15-a96f9877885d",
+                        "Region": "eu-west-1"
+                    },
+                    "Custom": {
+                        "PoolId": "eu-west-1:dee0aa8e-8a06-4322-9a15-a96f9877885d",
+                        "Region": "eu-west-1"
+                    }
+                }
+            },
+            "S3TransferUtility": {
+                "Default": {
+                    "Bucket": "sitestream-staging-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "Bucket": "sitestream-staging-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                }
+            },
+            "Auth": {
+                "Default": {
+                    "OAuth": {
+                        "WebDomain": "sitestream-staging.auth.eu-west-1.amazoncognito.com",
+                        "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                        "SignInRedirectURI": "sitestream://callback",
+                        "SignOutRedirectURI": "sitestream://signout",
+                        "Scopes": [
+                            "email",
+                            "openid",
+                            "profile"
+                        ]
+                    }
+                },
+                "Custom": {
+                    "authenticationFlowType": "CUSTOM_AUTH"
+                }
+            }
+        },
+        "App": {
+            "BaseUrl": "api.staging.sitestream.app",
+            "WebsocketUrl": "wss://9mbtufoxj2.execute-api.eu-west-1.amazonaws.com/staging/",
+            "SegmentWriteKey": "HfpsISiskRJ3uLLBBC0pZSLUTBskvUxC",
+            "iOSSegmentWriteKey": "CEn1dyYjAyvebB9nldQMZ2ttGB2s31tA"
+        }
+    },
+    {
+        "customerId": "sme",
+        "Aws": {
+            "CognitoUserPool": {
+                "Default": {
+                    "PoolId": "eu-west-1_FQLqQBjPm",
+                    "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "PoolId": "eu-west-1_FQLqQBjPm",
+                    "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                    "Region": "eu-west-1"
+                }
+            },
+            "CredentialsProvider": {
+                "CognitoIdentity": {
+                    "Default": {
+                        "PoolId": "eu-west-1:dee0aa8e-8a06-4322-9a15-a96f9877885d",
+                        "Region": "eu-west-1"
+                    },
+                    "Custom": {
+                        "PoolId": "eu-west-1:dee0aa8e-8a06-4322-9a15-a96f9877885d",
+                        "Region": "eu-west-1"
+                    }
+                }
+            },
+            "S3TransferUtility": {
+                "Default": {
+                    "Bucket": "sitestream-staging-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "Bucket": "sitestream-staging-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                }
+            },
+            "Auth": {
+                "Default": {
+                    "OAuth": {
+                        "WebDomain": "sitestream-staging.auth.eu-west-1.amazoncognito.com",
+                        "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                        "SignInRedirectURI": "sitestream://callback",
+                        "SignOutRedirectURI": "sitestream://signout",
+                        "Scopes": [
+                            "email",
+                            "openid",
+                            "profile"
+                        ]
+                    }
+                },
+                "Custom": {
+                    "authenticationFlowType": "CUSTOM_AUTH"
+                }
+            }
+        },
+        "App": {
+            "BaseUrl": "api.staging.sitestream.app",
+            "WebsocketUrl": "wss://9mbtufoxj2.execute-api.eu-west-1.amazonaws.com/staging/",
+            "SegmentWriteKey": "HfpsISiskRJ3uLLBBC0pZSLUTBskvUxC",
+            "iOSSegmentWriteKey": "CEn1dyYjAyvebB9nldQMZ2ttGB2s31tA"
+        }
+    },
+    {
+        "customerId": "sme-usa",
+        "Aws": {
+            "CognitoUserPool": {
+                "Default": {
+                    "PoolId": "eu-west-1_FQLqQBjPm",
+                    "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "PoolId": "eu-west-1_FQLqQBjPm",
+                    "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                    "Region": "eu-west-1"
+                }
+            },
+            "CredentialsProvider": {
+                "CognitoIdentity": {
+                    "Default": {
+                        "PoolId": "eu-west-1:dee0aa8e-8a06-4322-9a15-a96f9877885d",
+                        "Region": "eu-west-1"
+                    },
+                    "Custom": {
+                        "PoolId": "eu-west-1:dee0aa8e-8a06-4322-9a15-a96f9877885d",
+                        "Region": "eu-west-1"
+                    }
+                }
+            },
+            "S3TransferUtility": {
+                "Default": {
+                    "Bucket": "sitestream-staging-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "Bucket": "sitestream-staging-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                }
+            },
+            "Auth": {
+                "Default": {
+                    "OAuth": {
+                        "WebDomain": "sitestream-staging.auth.eu-west-1.amazoncognito.com",
+                        "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                        "SignInRedirectURI": "sitestream://callback",
+                        "SignOutRedirectURI": "sitestream://signout",
+                        "Scopes": [
+                            "email",
+                            "openid",
+                            "profile"
+                        ]
+                    }
+                },
+                "Custom": {
+                    "authenticationFlowType": "CUSTOM_AUTH"
+                }
+            }
+        },
+        "App": {
+            "BaseUrl": "api.staging.sitestream.app",
+            "WebsocketUrl": "wss://9mbtufoxj2.execute-api.eu-west-1.amazonaws.com/staging/",
+            "SegmentWriteKey": "HfpsISiskRJ3uLLBBC0pZSLUTBskvUxC",
+            "iOSSegmentWriteKey": "CEn1dyYjAyvebB9nldQMZ2ttGB2s31tA"
+        }
+    },
+    {
+        "customerId": "sme-aus",
+        "Aws": {
+            "CognitoUserPool": {
+                "Default": {
+                    "PoolId": "eu-west-1_FQLqQBjPm",
+                    "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "PoolId": "eu-west-1_FQLqQBjPm",
+                    "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                    "Region": "eu-west-1"
+                }
+            },
+            "CredentialsProvider": {
+                "CognitoIdentity": {
+                    "Default": {
+                        "PoolId": "eu-west-1:dee0aa8e-8a06-4322-9a15-a96f9877885d",
+                        "Region": "eu-west-1"
+                    },
+                    "Custom": {
+                        "PoolId": "eu-west-1:dee0aa8e-8a06-4322-9a15-a96f9877885d",
+                        "Region": "eu-west-1"
+                    }
+                }
+            },
+            "S3TransferUtility": {
+                "Default": {
+                    "Bucket": "sitestream-staging-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "Bucket": "sitestream-staging-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                }
+            },
+            "Auth": {
+                "Default": {
+                    "OAuth": {
+                        "WebDomain": "sitestream-staging.auth.eu-west-1.amazoncognito.com",
+                        "AppClientId": "3r1rqnppoapir5j7m68n004mnq",
+                        "SignInRedirectURI": "sitestream://callback",
+                        "SignOutRedirectURI": "sitestream://signout",
+                        "Scopes": [
+                            "email",
+                            "openid",
+                            "profile"
+                        ]
+                    }
+                },
+                "Custom": {
+                    "authenticationFlowType": "CUSTOM_AUTH"
+                }
+            }
+        },
+        "App": {
+            "BaseUrl": "api.staging.sitestream.app",
+            "WebsocketUrl": "wss://9mbtufoxj2.execute-api.eu-west-1.amazonaws.com/staging/",
+            "SegmentWriteKey": "HfpsISiskRJ3uLLBBC0pZSLUTBskvUxC",
+            "iOSSegmentWriteKey": "CEn1dyYjAyvebB9nldQMZ2ttGB2s31tA"
+        }
+    },
+    {
+        "customerId": "dev",
+        "Aws": {
+            "CognitoUserPool": {
+                "Default": {
+                    "PoolId": "eu-west-1_zGA4SuMWF",
+                    "AppClientId": "527f86d4tsfrgi4kt7pvvldau7",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "PoolId": "eu-west-1_zGA4SuMWF",
+                    "AppClientId": "527f86d4tsfrgi4kt7pvvldau7",
+                    "Region": "eu-west-1"
+                }
+            },
+            "CredentialsProvider": {
+                "CognitoIdentity": {
+                    "Default": {
+                        "PoolId": "eu-west-1:db94289c-1fe5-4329-adc0-08c817cf9fbb",
+                        "Region": "eu-west-1"
+                    },
+                    "Custom": {
+                        "PoolId": "eu-west-1:db94289c-1fe5-4329-adc0-08c817cf9fbb",
+                        "Region": "eu-west-1"
+                    }
+                }
+            },
+            "S3TransferUtility": {
+                "Default": {
+                    "Bucket": "sitestream-dev-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                },
+                "Custom": {
+                    "Bucket": "sitestream-dev-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                }
+            },
+            "Auth": {
+                "Default": {
+                    "OAuth": {
+                        "WebDomain": "sitestream-dev.auth.eu-west-1.amazoncognito.com",
+                        "AppClientId": "527f86d4tsfrgi4kt7pvvldau7",
+                        "SignInRedirectURI": "sitestream://callback",
+                        "SignOutRedirectURI": "sitestream://signout",
+                        "Scopes": [
+                            "email",
+                            "openid",
+                            "profile"
+                        ]
+                    }
+                },
+                "Custom": {
+                    "authenticationFlowType": "CUSTOM_AUTH"
+                }
+            }
+        },
+        "App": {
+            "BaseUrl": "api.dev.fyld.ai",
+            "WebsocketUrl": "wss://1rqgmi1y91.execute-api.eu-west-1.amazonaws.com/dev/",
+            "SegmentWriteKey": "HfpsISiskRJ3uLLBBC0pZSLUTBskvUxC",
+            "iOSSegmentWriteKey": "CEn1dyYjAyvebB9nldQMZ2ttGB2s31tA"
+        }
+    },
+    {
+        "customerId": "prod-sme",
+        "Aws": {
+            "CognitoUserPool": {
+                "Default": {
+                    "PoolId": "eu-west-1_tNIgc5DEH",
+                    "AppClientId": "79s5d761lanu3pug841tm07olu",
+                    "Region": "eu-west-1"
+                }
+            },
+            "CredentialsProvider": {
+                "CognitoIdentity": {
+                    "Default": {
+                        "PoolId": "eu-west-1:954818a7-c559-457f-9943-1f31caf7173d",
+                        "Region": "eu-west-1"
+                    }
+                }
+            },
+            "S3TransferUtility": {
+                "Default": {
+                    "Bucket": "sitestream-sme-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                }
+            },
+            "Auth": {
+                "Default": {
+                    "OAuth": {
+                        "WebDomain": "sitestream-sme.auth.eu-west-1.amazoncognito.com",
+                        "AppClientId": "79s5d761lanu3pug841tm07olu",
+                        "SignInRedirectURI": "sitestream://callback",
+                        "SignOutRedirectURI": "sitestream://signout",
+                        "Scopes": [
+                            "email",
+                            "openid",
+                            "profile"
+                        ]
+                    }
+                },
+                "Custom": {
+                    "authenticationFlowType": "CUSTOM_AUTH"
+                }
+            }
+        },
+        "App": {
+            "BaseUrl": "api.sme.fyld.ai",
+            "WebsocketUrl": "wss://osn4aockld.execute-api.eu-west-1.amazonaws.com/sme/",
+            "SegmentWriteKey": "Pce42BGKE2zeGl6PH77GURX63rFq6xng",
+            "iOSSegmentWriteKey": "4PBHyjfKvj2PbA4Ari8Bk1XK5RNGuBBq"
+        }
+    },
+    {
+        "customerId": "prod-sme-usa",
+        "Aws": {
+            "CognitoUserPool": {
+                "Default": {
+                    "PoolId": "us-east-1_d57QMenoR",
+                    "AppClientId": "5cd8l246igh4o3la4k3e8a94uu",
+                    "Region": "us-east-1"
+                }
+            },
+            "CredentialsProvider": {
+                "CognitoIdentity": {
+                    "Default": {
+                        "PoolId": "us-east-1:7e4ca845-91f7-4dbf-af66-364cce412e5b",
+                        "Region": "us-east-1"
+                    }
+                }
+            },
+            "S3TransferUtility": {
+                "Default": {
+                    "Bucket": "sitestream-sme-usa-maestro-data-bucket",
+                    "Region": "us-east-1"
+                }
+            },
+            "Auth": {
+                "Default": {
+                    "OAuth": {
+                        "WebDomain": "sitestream-sme-usa.auth.us-east-1.amazoncognito.com",
+                        "AppClientId": "5cd8l246igh4o3la4k3e8a94uu",
+                        "SignInRedirectURI": "sitestream://callback",
+                        "SignOutRedirectURI": "sitestream://signout",
+                        "Scopes": [
+                            "email",
+                            "openid",
+                            "profile"
+                        ]
+                    }
+                },
+                "Custom": {
+                    "authenticationFlowType": "CUSTOM_AUTH"
+                }
+            }
+        },
+        "App": {
+            "BaseUrl": "api.sme-usa.fyld.ai",
+            "WebsocketUrl": "wss://l2mr00vdv2.execute-api.us-east-1.amazonaws.com/sme-usa/",
+            "SegmentWriteKey": "KA8pwVtcMeC2f7jKcS1fpity6Xc2b41C",
+            "iOSSegmentWriteKey": "eeLiyJza5hOz3gbNYfBx7sLhtLI3Qw0h"
+        }
+    }
+]

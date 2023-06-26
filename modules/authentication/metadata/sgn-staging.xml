@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="http://www.okta.com/exk3uk30exbwGsH4f0i7" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDljCCAn6gAwIBAgIGAV2hUf55MA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxDDAKBgNVBAMMA3NnbjEcMBoGCSqGSIb3DQEJARYNaW5mb0Bv
+a3RhLmNvbTAeFw0xNzA4MDIwNTAwMzFaFw0yNzA4MDIwNTAxMzFaMIGLMQswCQYDVQQGEwJVUzET
+MBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0
+YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxDDAKBgNVBAMMA3NnbjEcMBoGCSqGSIb3DQEJARYNaW5m
+b0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL8nMe402KWUVa3VR5QZ
+IJiczyO6aEoaAWJDT1XFG7TmcsGuMUYbEGklcGPlcAbQDOw/bf4YrhySJIlYPedEAiRwSf9AXDZO
+ot1y2NXxyYCOPN+qVmJsVGJCnflaoTIwmrNlIHxPmokVYx+YEwxeqCqWUCapW/j65a0ttTQ/OH4B
+QkgRwtUiuwTIn1S7tnIYn7oIZEjN6gpZEex8sNcXOd8/V0sKmJxJZDrQ1uhziolQKeqDiA83aKI4
+IGJdaiTgzRsoPLka4S6EaN0tx5M5Hww77ImzjFL4c1F+EymCmYJ+KVTctQlk0cdmiS3ri3XDe2Yj
+YUZVKlOG5P9XRS7NgmsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAZus0fjxSw4DeUnkzUqy2IqMd
+746dV4VkvwkZKYiBDWhwvvgs1wbnPGHpg9GLXFkOhacwYvCUdgf4crfx7yN2LFdT3zmd9z+6GAGg
+hPnsK5jXMwINmBAMVyGxQFqgtr9hAAq7naDRxcUznRIHHgNYtG1zfLEllwcYUsQXb3pMhqAkZ09n
+hFF+SRu1oBwIBIJAEgtq6bTuErR56/n+vQraLtIyy3wLGjxX4w+6pGFN3df6qy/XB2PNaipnwqEl
++kn2+rhbXMw0UK5oMKVzB8eKUy6Gzufbpgf1cXC1dHHJXmEf0luMGUUhHy5Y9pDDbEeYB9tXVZjA
+JXToGSAlhWOn8g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sgn.okta-emea.com/app/sgnprod_fyldstaginga_1/exk3uk30exbwGsH4f0i7/sso/saml"/><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sgn.okta-emea.com/app/sgnprod_fyldstaginga_1/exk3uk30exbwGsH4f0i7/sso/saml"/></md:IDPSSODescriptor></md:EntityDescriptor>

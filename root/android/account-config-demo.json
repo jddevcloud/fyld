@@ -1,0 +1,49 @@
+[
+    {
+        "customerId": "sme",
+        "Aws": {
+            "CognitoUserPool": {
+                "Default": {
+                    "PoolId": "eu-west-1_tNIgc5DEH",
+                    "AppClientId": "79s5d761lanu3pug841tm07olu",
+                    "Region": "eu-west-1"
+                }
+            },
+            "CredentialsProvider": {
+                "CognitoIdentity": {
+                    "Default": {
+                        "PoolId": "eu-west-1:954818a7-c559-457f-9943-1f31caf7173d",
+                        "Region": "eu-west-1"
+                    }
+                }
+            },
+            "S3TransferUtility": {
+                "Default": {
+                    "Bucket": "sitestream-sme-maestro-data-bucket",
+                    "Region": "eu-west-1"
+                }
+            },
+            "Auth": {
+                "Default": {
+                    "OAuth": {
+                        "WebDomain": "sitestream-sme.auth.eu-west-1.amazoncognito.com",
+                        "AppClientId": "79s5d761lanu3pug841tm07olu",
+                        "SignInRedirectURI": "sitestream://callback",
+                        "SignOutRedirectURI": "sitestream://signout",
+                        "Scopes": [
+                            "email",
+                            "openid",
+                            "profile"
+                        ]
+                    }
+                }
+            }
+        },
+        "App": {
+            "BaseUrl": "api.sme.fyld.ai",
+            "WebsocketUrl": "wss://osn4aockld.execute-api.eu-west-1.amazonaws.com/sme/",
+            "SegmentWriteKey": "Pce42BGKE2zeGl6PH77GURX63rFq6xng",
+            "iOSSegmentWriteKey": "4PBHyjfKvj2PbA4Ari8Bk1XK5RNGuBBq"
+        }
+    }
+]

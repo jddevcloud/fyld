@@ -1,0 +1,3 @@
+variable "ENV" {
+  default = "backup"
+}

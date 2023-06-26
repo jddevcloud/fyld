@@ -1,0 +1,47 @@
+#! /bin/bash
+
+sudo amazon-linux-extras install epel -y
+sudo yum install pgbouncer pgbconsole -y
+
+sudo service pgbouncer stop
+
+sudo cat << EOF > /etc/pgbouncer/pgbouncer.ini
+;;;
+;;; PgBouncer configuration file
+;;;
+
+;; database name = connect string
+;;
+;; connect string params:
+;;   dbname= host= port= user= password= auth_user=
+;;   client_encoding= datestyle= timezone=
+;;   pool_size= reserve_pool= max_db_connections=
+;;   pool_mode= connect_query= application_name=
+[databases]
+sitestream = password=${rds_password} host=${rds_host} dbname=sitestream auth_user=sitestream user=sitestream
+
+[pgbouncer]
+
+;; https://stackoverflow.com/questions/36495062/pycharm-and-postgres-error-unsupported-startup-parameter-extra-float-digits
+ignore_startup_parameters = extra_float_digits
+
+logfile = /var/log/pgbouncer/pgbouncer.log
+pidfile = /var/run/pgbouncer/pgbouncer.pid
+
+listen_addr = *
+listen_port = 5432
+auth_type = md5
+auth_file = /etc/pgbouncer/userlist.txt
+
+admin_users = postgres
+stats_users = stats, postgres
+
+ignore_startup_parameters = extra_float_digits,options
+
+EOF
+
+sudo cat << EOF > /etc/pgbouncer/userlist.txt
+"sitestream" "${md5_password}"
+EOF
+
+sudo service pgbouncer start
